@@ -1,1 +1,53 @@
-puck you
+git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'jadha@ASUSA15.(none)')
+
+C:\Users\jadha\Downloads\demo>git config --global user.Shubham "codexshubhu"
+
+C:\Users\jadha\Downloads\demo>git config --global user.email "sj859662@gmail.com"
+
+C:\Users\jadha\Downloads\demo>git config --global user.name "codexshubhu"
+
+C:\Users\jadha\Downloads\demo>git commit -m "first commit"
+[master (root-commit) bf0ad81] first commit
+ 2 files changed, 2 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 nikil.txt
+
+C:\Users\jadha\Downloads\demo>git branch -M main
+
+C:\Users\jadha\Downloads\demo>git remote add origin https://github.com/codexshubhu/workshop-demo.git
+
+C:\Users\jadha\Downloads\demo>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 282 bytes | 141.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/codexshubhu/workshop-demo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\jadha\Downloads\demo>git add .
+
+C:\Users\jadha\Downloads\demo>git commit -m "swapnil added"
+[main cc3f7fa] swapnil added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 swapnil.txt.txt
+
+C:\Users\jadha\Downloads\demo>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 320 bytes | 160.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/codexshubhu/workshop-demo.git
+   bf0ad81..cc3f7fa  main -> main
+
+C:\Users\jadha\Downloads\demo>
